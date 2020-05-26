@@ -29,7 +29,6 @@
     
     printf("[*] fixup network problem for %s\n", bundleId.UTF8String);
     if (c(AppWirelessDataUsageManager)) {
-        // iOS 13
         [c(AppWirelessDataUsageManager) setAppWirelessDataOption:[NSNumber numberWithInteger:3]
                                         forBundleIdentifier:bundleId
                                         completionHandler:nil];
@@ -38,7 +37,6 @@
                                         completionHandler:nil];
         printf("[+] setup AppWirelessDataUsageManager\n");
     } else if (c(PSAppDataUsagePolicyCache)) {
-        // iOS 12
         [[c(PSAppDataUsagePolicyCache) sharedInstance] setUsagePoliciesForBundle:bundleId
                                                        cellular:YES
                                                        wifi:YES];
