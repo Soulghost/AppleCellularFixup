@@ -7,5 +7,6 @@ Fixup network issues for iPhone in China, based on Siguza's very first 0day.
 
 # Usage
 1. Clone this project.
-2. Goto main.m, change the bundleId above UIApplicationMain call.
-3. Build & Run.
+2. Find the bundle identifier of the app to be repaired.
+3. Goto main.m, change the bundle identifier above UIApplicationMain call.
+4. Build & Run.
