@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68E23A7F247D18E5008571EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E23A7E247D18E5008571EF /* AppDelegate.m */; };
+		68E23A85247D18E5008571EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E23A84247D18E5008571EF /* ViewController.m */; };
+		68E23A88247D18E5008571EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68E23A86247D18E5008571EF /* Main.storyboard */; };
+		68E23A8A247D18E6008571EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68E23A89247D18E6008571EF /* Assets.xcassets */; };
+		68E23A8D247D18E6008571EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68E23A8B247D18E6008571EF /* LaunchScreen.storyboard */; };
+		68E23A90247D18E6008571EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E23A8F247D18E6008571EF /* main.m */; };
+		68E23A98247D18FE008571EF /* evil_sign.py in Resources */ = {isa = PBXBuildFile; fileRef = 68E23A97247D18FE008571EF /* evil_sign.py */; };
+		68E23A9B247D1976008571EF /* SGNetworkConfigurationModifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E23A9A247D1976008571EF /* SGNetworkConfigurationModifier.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		68E23A7A247D18E5008571EF /* AppleCellularFix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleCellularFix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68E23A7D247D18E5008571EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		68E23A7E247D18E5008571EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		68E23A83247D18E5008571EF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		68E23A84247D18E5008571EF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		68E23A87247D18E5008571EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68E23A89247D18E6008571EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68E23A8C247D18E6008571EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68E23A8E247D18E6008571EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68E23A8F247D18E6008571EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68E23A97247D18FE008571EF /* evil_sign.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = evil_sign.py; sourceTree = "<group>"; };
+		68E23A99247D1976008571EF /* SGNetworkConfigurationModifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGNetworkConfigurationModifier.h; sourceTree = "<group>"; };
+		68E23A9A247D1976008571EF /* SGNetworkConfigurationModifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGNetworkConfigurationModifier.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68E23A77247D18E5008571EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68E23A71247D18E5008571EF = {
+			isa = PBXGroup;
+			children = (
+				68E23A7C247D18E5008571EF /* AppleCellularFix */,
+				68E23A7B247D18E5008571EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68E23A7B247D18E5008571EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68E23A7A247D18E5008571EF /* AppleCellularFix.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68E23A7C247D18E5008571EF /* AppleCellularFix */ = {
+			isa = PBXGroup;
+			children = (
+				68E23A99247D1976008571EF /* SGNetworkConfigurationModifier.h */,
+				68E23A9A247D1976008571EF /* SGNetworkConfigurationModifier.m */,
+				68E23A7D247D18E5008571EF /* AppDelegate.h */,
+				68E23A7E247D18E5008571EF /* AppDelegate.m */,
+				68E23A83247D18E5008571EF /* ViewController.h */,
+				68E23A84247D18E5008571EF /* ViewController.m */,
+				68E23A86247D18E5008571EF /* Main.storyboard */,
+				68E23A89247D18E6008571EF /* Assets.xcassets */,
+				68E23A8B247D18E6008571EF /* LaunchScreen.storyboard */,
+				68E23A8E247D18E6008571EF /* Info.plist */,
+				68E23A8F247D18E6008571EF /* main.m */,
+				68E23A97247D18FE008571EF /* evil_sign.py */,
+			);
+			path = AppleCellularFix;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68E23A79247D18E5008571EF /* AppleCellularFix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68E23A93247D18E6008571EF /* Build configuration list for PBXNativeTarget "AppleCellularFix" */;
+			buildPhases = (
+				68E23A76247D18E5008571EF /* Sources */,
+				68E23A77247D18E5008571EF /* Frameworks */,
+				68E23A78247D18E5008571EF /* Resources */,
+				68E23A9C247D1B1C008571EF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleCellularFix;
+			productName = AppleCellularFix;
+			productReference = 68E23A7A247D18E5008571EF /* AppleCellularFix.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68E23A72247D18E5008571EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = soulghost;
+				TargetAttributes = {
+					68E23A79247D18E5008571EF = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 68E23A75247D18E5008571EF /* Build configuration list for PBXProject "AppleCellularFix" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68E23A71247D18E5008571EF;
+			productRefGroup = 68E23A7B247D18E5008571EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68E23A79247D18E5008571EF /* AppleCellularFix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68E23A78247D18E5008571EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E23A8D247D18E6008571EF /* LaunchScreen.storyboard in Resources */,
+				68E23A8A247D18E6008571EF /* Assets.xcassets in Resources */,
+				68E23A88247D18E5008571EF /* Main.storyboard in Resources */,
+				68E23A98247D18FE008571EF /* evil_sign.py in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68E23A9C247D1B1C008571EF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "python ${SRCROOT}/AppleCellularFix/evil_sign.py\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68E23A76247D18E5008571EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E23A9B247D1976008571EF /* SGNetworkConfigurationModifier.m in Sources */,
+				68E23A85247D18E5008571EF /* ViewController.m in Sources */,
+				68E23A7F247D18E5008571EF /* AppDelegate.m in Sources */,
+				68E23A90247D18E6008571EF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		68E23A86247D18E5008571EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68E23A87247D18E5008571EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68E23A8B247D18E6008571EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68E23A8C247D18E6008571EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68E23A91247D18E6008571EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		68E23A92247D18E6008571EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68E23A94247D18E6008571EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6CMYQQFFT8;
+				INFOPLIST_FILE = AppleCellularFix/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soulghost.AppleCellularFix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68E23A95247D18E6008571EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6CMYQQFFT8;
+				INFOPLIST_FILE = AppleCellularFix/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soulghost.AppleCellularFix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68E23A75247D18E5008571EF /* Build configuration list for PBXProject "AppleCellularFix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68E23A91247D18E6008571EF /* Debug */,
+				68E23A92247D18E6008571EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68E23A93247D18E6008571EF /* Build configuration list for PBXNativeTarget "AppleCellularFix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68E23A94247D18E6008571EF /* Debug */,
+				68E23A95247D18E6008571EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68E23A72247D18E5008571EF /* Project object */;
+}
